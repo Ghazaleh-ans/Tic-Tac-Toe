@@ -1,0 +1,86 @@
+.btn-purple {
+  background-color: #3d1952;
+  color: #e0e0e2;
+}
+
+.border-input {
+  border-color: #5b0888;
+}
+
+button:hover {
+  background: #9d76c1 !important;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #5b0888, #f6f1f1, #9d76c1);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+.game-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.player-names {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.player {
+  color: #3d1952;
+  border-color: #5b0888 !important ;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.btn-game {
+  cursor: pointer;
+  height: 100px;
+  width: 100px;
+  border: 2px solid #3d1952 !important;
+}
+
+.first-row {
+  border-bottom: transparent !important;
+}
+.last-row {
+  border-top: transparent !important;
+}
+
+.playerX {
+  background: url(./images/x.png);
+  background-size: 100%;
+}
+
+.playerO {
+  background: url(./images/o.png);
+  background-size: 100%;
+}
+
+.blurry {
+  filter: blur(5px);
+}
+
+.popUp-color {
+  background-color: #e0e0e2;
+  color: #3d1952;
+}
+
+.btn-play-again {
+  background-color: #5b0888;
+  border-color: #5b0888 !important;
+  color: #e0e0e2;
+}
+
+.btn-restart {
+  background-color: #e0e0e2;
+  color:#5b0888;
+  border-color: #5b0888 !important;
+}
